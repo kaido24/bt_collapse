@@ -52,10 +52,10 @@
            //  '<div class="panel panel-default">' +
               '<div class="panel-heading" role="tab" id="heading-' + rowNr + '">' +
                 '<div class="panel-title">' +
-                  '<div class="collapsed accordion-title" role="button" data-toggle="collapse" data-target="#collapse-' + rowNr + '" aria-expanded="false" aria-controls="collapse-' + rowNr + '">Title</div>' +
+                  '<div class="accordion-title" role="button" data-toggle="collapse" data-target="#collapse-' + rowNr + '" aria-expanded="false" aria-controls="collapse-' + rowNr + '">Title</div>' +
                 '</div>' +
               '</div>' +
-              '<div id="collapse-' + rowNr + '" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-' + rowNr + '">'+ 
+              '<div id="collapse-' + rowNr + '" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-' + rowNr + '">'+ 
                   '<div class="panel-body">text' +
                   '</div>' +
              //     '</div>' + 
